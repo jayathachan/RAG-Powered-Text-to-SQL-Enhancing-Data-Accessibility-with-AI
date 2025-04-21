@@ -12,7 +12,7 @@ This project aims to make basketball analytics more accessible by empowering non
 - **Chatbot Interface**: Implemented a Streamlit + LangChain-based chatbot.
 - **Local Deployment**: Deployed the quantized LLM locally using Ollama, with public access enabled through Ngrok for easy testing and demonstrations.
 
-# To run the Q-A_app locally
+## To run the Q-A_app locally
 1. Clone the repository to your local machine:
    ```bash
    git clone <repository-url>

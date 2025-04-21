@@ -2,15 +2,15 @@
 # RAG-Powered-Text-to-SQL-Enhancing-Data-Accessibility-with-AI <img width="651" alt="Screenshot 2025-04-20 at 11 53 49 PM" src="https://github.com/user-attachments/assets/69576a01-4791-4d71-8b60-9829ce773266" />
 This project aims to make basketball analytics more accessible by empowering non-technical users to interact with complex NBA datasets using natural language. By fine-tuning an open-source LLM to translate English questions into accurate SQL queries, the system provides fact-based, grounded insights without requiring SQL knowledge.
 
-# Project Highlights
-- **Custom Dataset Pipeline:** Built an orchestration workflow to clean, augment, and generate synthetic queries for improved fine-tuning quality.
-- **Efficient Data Preprocessing:** Utilizes FAISS-based vector retrieval and UnSloth library for optimized tokenization.
-- **LLM Fine-Tuning:** Trained a LLaMA 3.2B model (via Unsloth) on a custom NBA Text-to-SQL dataset for high-accuracy query generation.
-- **Fine-Tuned Mistral Model:** Optimized for SQL query generation using Low-Rank Adaptation (LoRA) and Retrieval-Augmented Generation (RAG).
-- **Evaluation Metrics:** Assessed using ROUGE-1, ROUGE-L, BLEU, and BERTScore.
-- **Multiple Baseline Models:** Includes N-Gram, Seq2Seq LSTM, and Pre-trained Mistral for comparative evaluation.
-- **Chatbot Interface:** Built an interactive chatbot using Streamlit and LangChain to allow seamless user interaction.
-- **Deployment:** Hosted the LLM locally via Ollama and exposed it over the web using Ngrok.
+## Project Highlights
+
+- **Custom Dataset Pipeline**: Developed an orchestration workflow to clean, augment, and synthesize Text-to-SQL query pairs, enhancing model generalization and fine-tuning quality. 
+- **Data Preprocessing**: Leveraged FAISS-based semantic retrieval to enrich queries and used Unsloth for efficient tokenization and LoRA-based fine-tuning. 
+- **Baseline Comparisons**: Benchmarked against multiple models — including N-Gram, Seq2Seq LSTM, and pre-trained Mistral and LLaMA — to evaluate performance gains from fine-tuning.
+- **LLM Fine-Tuning**: Fine-tuned a LLaMA 3.2B-Instruct model using a domain-specific NBA dataset via Unsloth, applying 5-bit quantization for GPU efficiency. 
+- **Evaluation Metrics**: Assessed output quality using ROUGE-1, ROUGE-L, BLEU, and BERTScore to capture both syntactic and semantic fidelity.
+- **Chatbot Interface**: Implemented a Streamlit + LangChain-based chatbot to allow intuitive natural language interaction with the NBA database.
+- **Local Deployment**: Deployed the quantized LLM locally using Ollama, with public access enabled through Ngrok for easy testing and demonstrations.
 
 # To run the Q-A_app locally
 1. Clone the repository to your local machine:

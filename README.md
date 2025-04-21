@@ -37,4 +37,9 @@ This project aims to make basketball analytics more accessible by empowering non
    ```bash
    streamlit run Q-A_app/app.py
 
+# Future Work
+- **Improved Dataset Generation:** Expand and diversify the Text-to-SQL dataset with more complex query types, joins, subqueries, and temporal filters.
+- **Multi-Turn Query Support:** Enhance the chatbot’s ability to handle contextual, follow-up queries by integrating memory modules or session state tracking.
+- **Visual Analytics Integration:** Display SQL results as dynamic visualizations (e.g., bar charts, line graphs) to make insights more digestible.
+
 

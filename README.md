@@ -18,7 +18,7 @@
    ```bash
    pip install -r chatbotapp/requirements.txt
 5. Add your api key, hugging face token and database path(sqlite database path)
-   Create a .env file in chatbotapp/ and add:
+   Create a .env file in Q-A_app/ and add:
    ```bash
    OPENAI_API_KEY=your_openai_api_key_here
    HUGGINGFACE_API_TOKEN=your_huggingface_token_here

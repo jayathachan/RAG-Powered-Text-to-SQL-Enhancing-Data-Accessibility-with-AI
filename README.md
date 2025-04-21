@@ -1,6 +1,19 @@
 
 # RAG-Powered-Text-to-SQL-Enhancing-Data-Accessibility-with-AI<img width="651" alt="Screenshot 2025-04-20 at 11 53 49 PM" src="https://github.com/user-attachments/assets/69576a01-4791-4d71-8b60-9829ce773266" />
 
+This project aims to make basketball analytics more accessible by empowering non-technical users to interact with complex NBA datasets using natural language. By fine-tuning an open-source LLM to translate English questions into accurate SQL queries, the system provides fact-based, grounded insights without requiring SQL knowledge.
+
+# Project Highlights
+- LLM Fine-Tuning: Trained a LLaMA 3.2B model (via Unsloth) on a custom NBA Text-to-SQL dataset for high-accuracy query generation.
+- Chatbot Interface: Built an interactive chatbot using Streamlit and LangChain to allow seamless user interaction.
+- Deployment: Hosted the LLM locally via Ollama and exposed it over the web using Ngrok (cloud deployment in progress).
+- Clean Architecture: Applied object-oriented principles to improve code modularity, especially in benchmarking and core handlers.
+- Custom Dataset Pipeline: Built an orchestration workflow to clean, augment, and generate synthetic queries for improved fine-tuning quality.
+
+#  Goals
+- Simplify access to NBA analytics for coaches, analysts, and fans.
+- Eliminate LLM hallucinations by grounding responses in a real SQLite database.
+- Enable transparent and consistent performance evaluation.
 
 # To run the Q-A_app locally
 1. Clone the repository to your local machine:

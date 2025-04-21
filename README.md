@@ -6,9 +6,9 @@ This project aims to make basketball analytics more accessible by empowering non
 
 - **Custom Dataset Pipeline**: Developed an orchestration workflow to clean, augment, and synthesize Text-to-SQL query pairs, enhancing model generalization and fine-tuning quality. 
 - **Data Preprocessing**: Leveraged FAISS-based semantic retrieval to enrich queries and used Unsloth for efficient tokenization and LoRA-based fine-tuning. 
-- **Baseline Comparisons**: Benchmarked against multiple models — including N-Gram, Seq2Seq LSTM, and pre-trained Mistral and LLaMA — to evaluate performance gains from fine-tuning.
+- **Baseline Comparisons**: Benchmarked against multiple models including N-Gram, Seq2Seq LSTM, and pre-trained Mistral and LLaMA.
 - **LLM Fine-Tuning**: Fine-tuned a LLaMA 3.2B-Instruct model using a domain-specific NBA dataset via Unsloth, applying 5-bit quantization for GPU efficiency. 
-- **Evaluation Metrics**: Assessed output quality using ROUGE-1, ROUGE-L, BLEU, and BERTScore to capture both syntactic and semantic fidelity.
+- **Evaluation Metrics**: Assessed output quality using ROUGE-1, ROUGE-L, BLEU, and BERTScore to capture syntactic and semantic fidelity.
 - **Chatbot Interface**: Implemented a Streamlit + LangChain-based chatbot to allow intuitive natural language interaction with the NBA database.
 - **Local Deployment**: Deployed the quantized LLM locally using Ollama, with public access enabled through Ngrok for easy testing and demonstrations.
 

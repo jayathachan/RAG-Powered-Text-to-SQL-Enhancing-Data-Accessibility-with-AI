@@ -16,7 +16,7 @@
    source venv/bin/activate
 4. Install the packages using `requirements.txt`
    ```bash
-   pip install -r chatbotapp/requirements.txt
+   pip install -r Q-A_app/requirements.txt
 5. Add your api key, hugging face token and database path(sqlite database path)
    Create a .env file in Q-A_app/ and add:
    ```bash

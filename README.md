@@ -1,4 +1,5 @@
 
+# RAG-Powered-Text-to-SQL-Enhancing-Data-Accessibility-with-AI<img width="651" alt="Screenshot 2025-04-20 at 11 53 49 PM" src="https://github.com/user-attachments/assets/69576a01-4791-4d71-8b60-9829ce773266" />
 
 
 # To run the Q-A_app locally
@@ -27,5 +28,3 @@
    streamlit run Q-A_app/app.py
 
 
-
-# RAG-Powered-Text-to-SQL-Enhancing-Data-Accessibility-with-AI<img width="651" alt="Screenshot 2025-04-20 at 11 53 49 PM" src="https://github.com/user-attachments/assets/69576a01-4791-4d71-8b60-9829ce773266" />
